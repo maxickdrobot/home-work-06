@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100%;
+    height: 1000px; */
+}
+table {
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+table,
+tr,
+td {
+    border-spacing: 0;
+}
+
+.mondrians-table__col {
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.mondrians-table__col--main {
+    background-color: white;
+}
+
+.mondrians-table__col--additional {
+    background-color: yellow;
+}
+
+.mondrians-table__col--secondary {
+    background-color: red;
+}
+
+.mondrians-table__col--filled {
+    background-color: black;
+}
+
+.mondrians-table__col--unique {
+    background-color: blue;
+}
+
+.mondrians-table__col--important {
+    padding: 100px;
+}
+
+.mondrians-table__col--helping-block {
+    padding: 50px 60px;
+}
+
+table img {
+    vertical-align: middle;
+}            
